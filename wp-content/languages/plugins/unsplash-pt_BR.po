@@ -1,0 +1,475 @@
+# Translation of Plugins - Unsplash - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Unsplash - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-08 12:50:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Unsplash - Stable (latest release)\n"
+
+#: php/class-rest-controller.php:123
+msgid "Image caption."
+msgstr "Legenda da imagem."
+
+#: php/class-rest-controller.php:119
+msgid "Image description."
+msgstr "Descrição da imagem."
+
+#: php/class-rest-controller.php:115
+msgid "Image title."
+msgstr "Título da imagem."
+
+#: php/class-rest-controller.php:111
+msgid "Image alt text."
+msgstr "Texto alternativo da imagem."
+
+#: php/class-rest-controller.php:106
+msgid "Parent post ID."
+msgstr "ID do post ascendente."
+
+#: unsplash.php:71
+msgid "Unsplash plugin error: Your version of PHP is too old to run this plugin. You must be running PHP 5.6.20 or higher."
+msgstr "Erro de plugin do Unsplash: Sua versão do PHP é muito antiga para rodar esse plugin. Você deve estar rodando o PHP 5.6.20 ou superior."
+
+#: php/class-rest-controller.php:618
+msgid "List of url for default image sizes for the object."
+msgstr "Lista de URL para tamanhos de imagem padrão para o objeto."
+
+#: php/class-rest-controller.php:612
+msgid "Width for the object."
+msgstr "Largura para o objeto."
+
+#: php/class-rest-controller.php:606
+msgid "Height for the object."
+msgstr "Altura para o objeto."
+
+#: php/class-rest-controller.php:600
+msgid "Color for the object, as it exists in the database."
+msgstr "Cor para o objeto, como existente no banco de dados."
+
+#: php/class-rest-controller.php:594
+msgid "Description for the object, as it exists in the database."
+msgstr "Descrição para o objeto, como ele existe no banco de dados."
+
+#: php/class-rest-controller.php:588
+msgid "Alternative text to display when attachment is not displayed."
+msgstr "Texto alternativo a ser exibido quando o anexo não é exibido."
+
+#: php/class-rest-controller.php:581
+msgid "The date the object was last modified."
+msgstr "A data em que o objeto foi modificado pela última vez."
+
+#: php/class-rest-controller.php:574
+msgid "The date the object was published."
+msgstr "A data em que o objeto foi publicado."
+
+#: php/class-rest-controller.php:568
+msgid "Unique identifier for the object."
+msgstr "Identificador único para o objeto."
+
+#: php/class-rest-controller.php:535 php/class-rest-controller.php:543
+msgid "Invalid attachment ID."
+msgstr "ID de anexo inválido."
+
+#: php/class-rest-controller.php:499
+msgid "Collection ID(‘s) to narrow search. If multiple, comma-separated."
+msgstr "ID(s) da coleção para restringir a pesquisa. Se forem vários, separar por vírgula."
+
+#: php/class-rest-controller.php:492
+msgid "Filter search results by photo orientation."
+msgstr "Filtrar os resultados da pesquisa por orientação de foto."
+
+#: php/class-rest-controller.php:483
+msgid "How to sort the photos."
+msgstr "Como classificar as fotos."
+
+#: php/class-rest-controller.php:425
+msgid "Sorry, you are not allowed to upload media on this site."
+msgstr "Você não tem permissão para enviar mídia neste site."
+
+#: php/class-rest-controller.php:417
+msgid "Sorry, you are not allowed to create posts as this user."
+msgstr "Você não tem permissão para criar posts como este usuário."
+
+#: php/class-rest-controller.php:384
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr "Você não tem permissão para editar posts neste tipo de post."
+
+#. translators: %d: attachment id
+#: php/class-rest-controller.php:316
+msgid "Unable to process image attachment %d."
+msgstr "Não foi possível processar o anexo da imagem %d."
+
+#: php/class-rest-controller.php:145
+msgid "WordPress attachment ID."
+msgstr "ID de anexo do WordPress."
+
+#: php/class-rest-controller.php:80 php/class-rest-controller.php:102
+msgid "Unsplash image ID."
+msgstr "ID de imagem do Unsplash"
+
+#. translators: %s: Link to Unsplash settings page.
+#: php/class-api.php:385
+msgid "Visit the %s to complete the process."
+msgstr "Visite a %s para completar o processo."
+
+#. translators: %s: Link to status page.
+#: php/class-api.php:357
+msgid "There appears to be a communication issue with Unsplash, please check %s and try again in a few minutes."
+msgstr "Parece haver um problema de comunicação com o Unsplash, verifique a %s e tente novamente em alguns minutos."
+
+#: php/class-api.php:352
+msgid "The Unsplash API credentials supplied have been flagged for exceeding the permitted rate limit and have been temporarily disabled."
+msgstr "As credenciais da API do Unsplash fornecidas foram sinalizadas por exceder o limite de taxa permitido e foram desativadas temporariamente."
+
+#: php/class-api.php:349
+msgid "Unable to find Unsplash resource."
+msgstr "Não foi possível encontrar o recurso do Unsplash."
+
+#: php/class-api.php:344
+msgid "The Unsplash API credentials supplied are not authorized for this request."
+msgstr "As credenciais da API do Unsplash fornecidas não estão autorizadas para esta solicitação."
+
+#. translators: %s: Link to Unsplash settings page.
+#: php/class-api.php:341 php/class-api.php:346
+msgid "Please visit the %s to reconnect to Unsplash now."
+msgstr "Visite a %s para se reconectar ao Unsplash agora."
+
+#: php/class-api.php:339
+msgid "The Unsplash API credentials supplied are not authorized."
+msgstr "As credenciais da API do Unsplash fornecidas não estão autorizadas."
+
+#: php/class-api.php:333 php/class-api.php:382
+msgid "Unsplash settings page"
+msgstr "Página de configurações do Unsplash"
+
+#. translators: 1: Unsplash User URL, 2: Unsplash Referral URL
+#: php/class-image.php:225
+msgid "Photo by %1$s on %2$s "
+msgstr "Foto por %1$s em %2$s"
+
+#: php/class-plugin.php:985
+msgid "Settings"
+msgstr "Configurações "
+
+#: php/class-plugin.php:944
+msgid "Alt Text"
+msgstr "Texto alternativo"
+
+#: php/class-plugin.php:901
+msgid "Original dimensions"
+msgstr "Dimensões originais"
+
+#: php/class-plugin.php:895
+msgid "File size"
+msgstr "Tamanho do arquivo"
+
+#: php/class-plugin.php:892
+msgid "Date"
+msgstr "Data"
+
+#: php/class-plugin.php:891
+msgid "File name"
+msgstr "Nome do arquivo"
+
+#: php/class-plugin.php:871
+msgid "Attachment Details"
+msgstr "Detalhes do anexo"
+
+#: php/class-plugin.php:862 php/class-plugin.php:930
+msgid "Delete Permanently"
+msgstr "Excluir permanentemente"
+
+#: php/class-plugin.php:859 php/class-plugin.php:927
+msgid "Move to Trash"
+msgstr "Mover para a lixeira"
+
+#: php/class-plugin.php:857 php/class-plugin.php:925
+msgid "Restore from Trash"
+msgstr "Restaurar da lixeira"
+
+#: php/class-plugin.php:852
+msgid "Edit more details"
+msgstr "Editar mais detalhes"
+
+#: php/class-plugin.php:850
+msgid "View attachment page"
+msgstr "Ver página de anexo"
+
+#: php/class-plugin.php:843 php/class-plugin.php:965
+msgid "Copy Link"
+msgstr "Copiar link"
+
+#: php/class-plugin.php:834
+msgid "Uploaded To"
+msgstr "Enviado para"
+
+#: php/class-plugin.php:829
+msgid "Uploaded By"
+msgstr "Enviado por"
+
+#: php/class-plugin.php:825 php/class-plugin.php:961
+msgid "Description"
+msgstr "Descrição"
+
+#: php/class-plugin.php:821 php/class-plugin.php:957
+msgid "Caption"
+msgstr "Legenda"
+
+#: php/class-plugin.php:811
+msgid "Album"
+msgstr "Álbum"
+
+#: php/class-plugin.php:810
+msgid "Artist"
+msgstr "Artista"
+
+#: php/class-plugin.php:803 php/class-plugin.php:951
+msgid "Title"
+msgstr "Título"
+
+#: php/class-plugin.php:796
+msgid "Alternative Text"
+msgstr "Texto alternativo"
+
+#: php/class-plugin.php:778
+msgid "Bitrate:"
+msgstr "Taxa de bits:"
+
+#: php/class-plugin.php:770
+msgid "Length:"
+msgstr "Duração:"
+
+#: php/class-plugin.php:761 php/class-plugin.php:764 php/class-plugin.php:910
+#: php/class-plugin.php:913 php/class-hotlink.php:199
+msgid "Original image:"
+msgstr "Imagem original:"
+
+#. translators: 1: A number of pixels wide, 2: A number of pixels tall.
+#: php/class-plugin.php:755 php/class-plugin.php:904
+msgid "%1$s by %2$s pixels"
+msgstr "%1$s por %2$s pixels"
+
+#: php/class-plugin.php:752
+msgid "Dimensions:"
+msgstr "Dimensões:"
+
+#: php/class-plugin.php:749
+msgid "File size:"
+msgstr "Tamanho do arquivo:"
+
+#: php/class-plugin.php:747
+msgid "Uploaded on:"
+msgstr "Enviado em:"
+
+#: php/class-plugin.php:745
+msgid "Date:"
+msgstr "Data:"
+
+#: php/class-plugin.php:742
+msgid "File type:"
+msgstr "Tipo do arquivo:"
+
+#: php/class-plugin.php:740
+msgid "File name:"
+msgstr "Nome do arquivo:"
+
+#: php/class-plugin.php:737 php/class-plugin.php:888
+msgid "Photo by"
+msgstr "Foto por"
+
+#: php/class-plugin.php:735
+msgid "Details"
+msgstr "Detalhes"
+
+#: php/class-plugin.php:732 php/class-plugin.php:874
+msgid "Saved."
+msgstr "Salvo."
+
+#: php/class-plugin.php:724
+msgid "Document Preview"
+msgstr "Prévia do documento"
+
+#: php/class-plugin.php:722 php/class-plugin.php:918
+msgid "Edit Image"
+msgstr "Editar imagem"
+
+#: php/class-plugin.php:684
+msgid "Attachment Preview"
+msgstr "Pré-visualização de anexo"
+
+#. translators: Accessibility text.
+#: php/class-plugin.php:677
+msgid "(opens in a new tab)"
+msgstr "(abre em uma nova aba)"
+
+#. translators: 1: Link to tutorial, 2: Additional link attributes, 3:
+#. Accessibility text.
+#: php/class-plugin.php:671
+msgid "<a href=\"%1$s\" %2$s>Describe the purpose of the image%3$s</a>. Leave empty if the image is purely decorative."
+msgstr "<a href=\"%1$s\" %2$s>Descreva o propósito da imagem%3$s</a>. Deixe em branco se a imagem for puramente decorativa."
+
+#: php/class-plugin.php:563
+msgid "All users"
+msgstr "Todos os usuários"
+
+#: php/class-plugin.php:562
+msgid "User"
+msgstr "Usuário"
+
+#: php/class-plugin.php:561
+msgid "Users"
+msgstr "Usuários"
+
+#: php/class-plugin.php:555
+msgid "All Sources"
+msgstr "Todas as origens"
+
+#: php/class-plugin.php:554
+msgid "Source"
+msgstr "Origem"
+
+#: php/class-plugin.php:553
+msgid "Sources"
+msgstr "Origens"
+
+#: php/class-plugin.php:188
+msgid "The file was unable to be imported into the Media Library. Please try again"
+msgstr "Não foi possível importar o arquivo na Biblioteca de Mídia. Tente novamente"
+
+#: php/class-plugin.php:185
+msgid "No items found."
+msgstr "Nenhum item encontrado."
+
+#: php/class-plugin.php:180
+msgid "Search free high-resolution photos"
+msgstr "Pesquisar por fotos gratuitas de alta resolução"
+
+#: php/class-plugin.php:179
+msgid "Search"
+msgstr "Pesquisar"
+
+#: php/class-import.php:345
+msgid "You have used your space quota. Please delete files before uploading."
+msgstr "Você atingiu o seu limite de espaço. Exclua arquivos antes de enviar."
+
+#. translators: %s: Maximum allowed file size in kilobytes.
+#: php/class-import.php:332
+msgid "This file is too big. Files must be less than %s KB in size."
+msgstr "Este arquivo é muito grande. Os arquivos devem ser menores que %s KB."
+
+#. translators: %s: Required disk space in kilobytes.
+#: php/class-import.php:323
+msgid "Not enough space to upload. %s KB needed."
+msgstr "Não há espaço suficiente para enviar. São necessários %s KB."
+
+#: php/class-import.php:192
+msgid "No file found"
+msgstr "Nenhum arquivo encontrado"
+
+#: php/class-settings.php:495
+msgid "Only use if you have an API key to manually enter for authentication."
+msgstr "Use apenas se você tem uma chave de API para autenticação manual."
+
+#. translators: %s: Link to OAuth Applications page.
+#: php/class-settings.php:485
+msgid "Always use the default automated setup unless a manual authentication process is required. "
+msgstr "Sempre use a configuração automática padrão a menos que um processo de autenticação manual seja necessário."
+
+#: php/class-settings.php:461
+msgid "Could not generate an Unsplash API client_id."
+msgstr "Não foi possível gerar um client_id da API do Unsplash."
+
+#: php/class-settings.php:416
+msgid "Could not generate an Unsplash API access_token."
+msgstr "Não foi possível gerar um access_token da API do Unsplash."
+
+#: php/class-settings.php:375
+msgid "Your Client Application was successfully created, and is now connected to the Unsplash API."
+msgstr "Seu Aplicativo Cliente foi criado com sucesso e agora está conectado à API do Unsplash."
+
+#: php/class-settings.php:371
+msgid "Unsplash setup has failed, could not connect to the Unsplash API."
+msgstr "A configuração do Unsplash falhou, não foi possível conectar à API do Unsplash."
+
+#: php/class-settings.php:296
+msgid "Note: While this action will disconnect your current OAuth integration to Unsplash, it will not remove any images previously published or imported to your media library."
+msgstr "Nota: Embora essa ação desconecte sua integração atual do OAuth ao Unsplash, ela não removerá nenhuma imagem publicada anteriormente ou importada para sua biblioteca de mídia."
+
+#: php/class-settings.php:291
+msgid "deauthenticate"
+msgstr "desautenticar"
+
+#. translators: %s: Button to deauthenticate.
+#: php/class-settings.php:290
+msgid "If you need to change the Unsplash account that is associated with this plugin, you can always %1$s the connection and start over."
+msgstr "Se você precisar alterar a conta Unsplash associada a este plugin, você sempre poderá %1$s a conexão e iniciar novamente."
+
+#: php/class-settings.php:280
+msgid "Success icon"
+msgstr "Ícone de sucesso"
+
+#: php/class-settings.php:280
+msgid "Unsplash setup is complete"
+msgstr "A instalação do Unsplash está concluída"
+
+#: php/class-settings.php:273
+msgid "Dismiss icon"
+msgstr "Dispensar ícone"
+
+#: php/class-settings.php:273
+msgid "Unable to authenticate due to an error with the access key."
+msgstr "Não foi possível autenticar por causa de um erro com a chave de acesso."
+
+#: php/class-settings.php:270
+msgid "Restart setup"
+msgstr "Reiniciar instalação"
+
+#: php/class-api.php:379 php/class-settings.php:262
+msgid "To complete setup of the Unsplash plugin you will need to add the API access key."
+msgstr "Para concluir a instalação com o plugin do Unsplash você precisará adicionar uma chave de acesso da API."
+
+#: php/class-settings.php:260
+msgid "Complete setup"
+msgstr "Concluir instalação"
+
+#: php/class-settings.php:244
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: php/class-settings.php:243
+msgid "Search the internet’s source of freely usable images."
+msgstr "Pesquisar na fonte de imagens de uso livre da internet."
+
+#: php/class-settings.php:195
+msgid "Access Key"
+msgstr "Chave de acesso"
+
+#: php/class-settings.php:188
+msgid "Manual API Authentication"
+msgstr "Autenticação de API manual"
+
+#. Author URI of the plugin
+msgid "https://unsplash.com/"
+msgstr "https://unsplash.com/"
+
+#. Description of the plugin
+msgid "Unsplash for WordPress."
+msgstr "Unsplash para WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/xwp/unsplash-wp"
+msgstr "https://github.com/xwp/unsplash-wp"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: php/class-image.php:220 php/class-plugin.php:174 php/class-plugin.php:317
+#: php/class-plugin.php:609 php/class-hotlink.php:110 php/class-hotlink.php:158
+#: php/class-hotlink.php:201 php/class-settings.php:242
+#: assets/js/block-editor.js:1 assets/js/block-editor.js:3
+msgid "Unsplash"
+msgstr "Unsplash"
